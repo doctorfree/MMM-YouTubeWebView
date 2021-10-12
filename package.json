@@ -1,0 +1,23 @@
+{
+	"name": "MMM-YouTubeWebView",
+	"version": "1.0.0",
+	"description": "Rotating WebView module for MagicMirror²",
+	"repository": {
+		"type": "git",
+		"url": "git+https://gitlab.com/doctorfree/MMM-YouTubeWebView"
+	},
+	"keywords": [
+		"magic mirror",
+		"magicmirror",
+		"magicmirror2",
+		"smart mirror",
+		"webview"
+	],
+	"author": "Ronald Joe Record",
+	"license": "MIT",
+	"homepage": "https://gitlab.com/doctorfree/MMM-YouTubeWebView",
+	"dependencies": {},
+	"devDependencies": {
+		"prettier": "2.4.0"
+	}
+}
