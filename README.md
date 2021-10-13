@@ -113,6 +113,10 @@ For MagicMirror usage, using WebView instead of iframe may resolve the problem.
 
 Further, The excellent MMM-WebView module by Shunta Iketaki only handles a single URL. I wanted my MagicMirror to cycle through multiple YouTube videos and/or a playlist. I combined some of the features from the MMM-EmbedYoutube module by Nitipoom Unrrom with the functionality of MMM-WebView, adding some additional features.
 
+## Support
+
+Issues with MMM-YouTubeWebView can be reported and tracked in the Issues section of the repository at https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/issues
+
 ## License
 
 MIT Copyright (c) 2021 Ronald Joe Record
