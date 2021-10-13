@@ -42,6 +42,10 @@ policy restrictions that may prevent access to web content.
 
 Use of webview does not require a key and is free.
 
+This project is a work-in-progress and under active development.
+Please refer to the [Support](#support) section below to create or
+collaborate on an issue with this project.
+
 ### Features
 
 - Embedded YouTube Player on MagicMirror with Autoplay
