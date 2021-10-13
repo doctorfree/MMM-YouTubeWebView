@@ -91,9 +91,9 @@ The following properties can be configured:
 | `rel`            | Show related video at the end of video                                                                                                                                                         | `false`       | Boolean   |
 | `showinfo`       | Show video title and uploader                                                                                                                                                                  | `false`       | Boolean   |
 | `video_list`     | Play video from list by video id. YouTube will play `video_id` first then play video from `video_list`. See [Example in Wiki](https://github.com/nitpum/MMM-YouTubeWebView/wiki/Custom-Playlist) | []            | Array     |
-| `playlist`       | Play video from playlist by playlist id. **\*Note** It will neither play video from `video_id` nor `video_list`                                                                                | ""            | String    |
-| `width`          | Video width                                                                                                                                                                                    | `560`         | Integer   |
-| `height`         | Video height                                                                                                                                                                                   | `315`         | Integer   |
+| `playlist`       | Play video from playlist by playlist id. **Note** It will neither play video from `video_id` nor `video_list`                                                                                | ""            | String    |
+| `width`          | Video width                                                                                                                                                                                    | "560px"         | String   |
+| `height`         | Video height                                                                                                                                                                                   | "315px"         | String   |
 
 ## Update
 
