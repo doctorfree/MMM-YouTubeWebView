@@ -174,7 +174,7 @@ Further, The excellent MMM-WebView module by Shunta Iketaki only handles a singl
 
 ## Screenshot
 
-![](ScreenShots/K-pop-1.png)
+<img src="ScreenShots/K-pop-1.png" width="540" height="960">
 
 ## Support
 
