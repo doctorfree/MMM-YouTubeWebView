@@ -175,9 +175,9 @@ Further, The excellent MMM-WebView module by Shunta Iketaki only handles a singl
 ## Screenshots
 
 <p float="left">
-  <img src="ScreenShots/K-pop-1.png" width="360" height="640">
-  <img src="ScreenShots/K-pop_BoA.png" width="360" height="640">
-  <img src="ScreenShots/K-pop_GirlsGeneration.png" width="360" height="640">
+  <img src="ScreenShots/K-pop-1.png" width="270" height="480">
+  <img src="ScreenShots/K-pop_BoA.png" width="270" height="480">
+  <img src="ScreenShots/K-pop_GirlsGeneration.png" width="270" height="480">
 </p>
 
 ## Support
