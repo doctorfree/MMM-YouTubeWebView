@@ -5,8 +5,6 @@ MMM-YouTubeWebView allows you to add a webview which can display YouTube urls.
 
 This module uses the [Electron's \<webview\> tag](https://www.electronjs.org/docs/api/webview-tag) instead of `<iframe>` to embed pages. It enables display of YouTube videos that cannot be displayed in an `<iframe>`.
 
-v1.0.0
-
 ## Table of contents
 
 1. [Technical Overview](#technical-overview)
