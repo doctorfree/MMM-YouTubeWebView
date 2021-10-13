@@ -91,7 +91,7 @@ The following properties can be configured:
 | `rel`            | Show related video at the end of video                                                                                                                                                         | `false`       | Boolean   |
 | `showinfo`       | Show video title and uploader                                                                                                                                                                  | `false`       | Boolean   |
 | `video_list`     | Play video from list by video id. YouTube will play `video_id` first then play video from `video_list`. See [Example in Wiki](https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Custom-Playlist) | []            | Array     |
-| `playlist`       | Play video from playlist by playlist id. **Note** It will neither play video from `video_id` nor `video_list`                                                                                | ""            | String    |
+| `playlist`       | Play video from playlist by playlist id. **Note** It will neither play video from `video_id` nor `video_list`. See [Example in Wiki](https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Asian-Pop)  | ""            | String    |
 | `width`          | Video width                                                                                                                                                                                    | "560px"         | String   |
 | `height`         | Video height                                                                                                                                                                                   | "315px"         | String   |
 
