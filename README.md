@@ -141,9 +141,11 @@ The following properties can be configured:
 
 Several example configurations utilizing the MMM-YouTubeWebView module are available.
 
+- [Dua Lipa](https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Dua-Lipa)
 - [Fractals](https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Fractal-Playlist)
 - [Korean Pop](https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Korean-Pop)
 - [Rufus Wainwright](https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Rufus-Wainwright)
+- [Queens of the Stone Age](https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Queens-of-the-Stone-Age)
 
 In addition to these MMM-YouTubeWebView example configs, an extensive library of
 MagicMirror configuration files is maintained in the
