@@ -19,7 +19,7 @@ v1.0.0
 1. [Update](#update)
 1. [Limitations](#limitations)
 1. [Motivation](#motivation)
-1. [Screenshot](#screenshot)
+1. [Screenshots](#screenshots)
 1. [Support](#support)
 1. [License](#license)
 
@@ -172,9 +172,13 @@ For MagicMirror usage, using WebView instead of iframe may resolve the problem.
 
 Further, The excellent MMM-WebView module by Shunta Iketaki only handles a single URL. I wanted my MagicMirror to cycle through multiple YouTube videos and/or a playlist. I combined some of the features from the MMM-EmbedYoutube module by Nitipoom Unrrom with the functionality of MMM-WebView, adding some additional features.
 
-## Screenshot
+## Screenshots
 
-<img src="ScreenShots/K-pop-1.png" width="540" height="960">
+<p float="left">
+  <img src="ScreenShots/K-pop-1.png" width="360" height="640">
+  <img src="ScreenShots/K-pop_BoA.png" width="360" height="640">
+  <img src="ScreenShots/K-pop_GirlsGeneration.png" width="360" height="640">
+</p>
 
 ## Support
 
