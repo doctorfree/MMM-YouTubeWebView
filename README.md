@@ -13,6 +13,7 @@ v1.0.0
 1. [Using this module](#using-this-module)
 1. [Configuration](#configuration)
     1. [Optional configuration](#optional-configuration)
+    1. [Example configurations](#example-configurations)
 1. [Update](#update)
 1. [Limitations](#limitations)
 1. [Motivation](#motivation)
@@ -102,9 +103,21 @@ The following properties can be configured:
 | `rel`            | Show related video at the end of video | `false`       | Boolean   |
 | `showinfo`       | Show video title and uploader | `false`       | Boolean   |
 | `video_list`     | Play video from list by video id. YouTube will play `video_id` first then play video from `video_list`. See [Example in Wiki](https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Custom-Playlist) | []            | Array     |
-| `playlist`       | Play video from playlist by playlist id. **Note** It will neither play video from `video_id` nor `video_list`. See [Example in Wiki](https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Asian-Pop)  | ""            | String    |
+| `playlist`       | Play video from playlist by playlist id. **Note** It will neither play video from `video_id` nor `video_list`. See [Example in Wiki](https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Korean-Pop)  | ""            | String    |
 | `width`          | Video width  | "560px"         | String   |
 | `height`         | Video height | "315px"         | String   |
+
+### Example configurations
+
+Several example configurations utilizing the MMM-YouTubeWebView module are available.
+
+- [Fractals](https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Fractal-Playlist)
+- [Korean Pop](https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Korean-Pop)
+- [Rufus Wainwright](https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Rufus-Wainwright)
+
+In addition to these MMM-YouTubeWebView example configs, an extensive library of
+MagicMirror configuration files is maintained in the
+[MirrorCommandLine repository](https://gitlab.com/doctorfree/MirrorCommandLine).
 
 ## Update
 
