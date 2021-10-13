@@ -9,6 +9,8 @@ v1.0.0
 
 ## Table of contents
 
+1. [Technical Overview](#technical-overview)
+1. [Features](#features)
 1. [Installation](#installation)
 1. [Using this module](#using-this-module)
 1. [Configuration](#configuration)
@@ -20,6 +22,31 @@ v1.0.0
 1. [Screenshots](#screenshots)
 1. [Support](#support)
 1. [License](#license)
+
+## Technical Overview
+
+The webview tag is used to embed 'guest' content in the MagicMirror Electron app.
+The guest content is contained within the webview container. An embedded page within
+MagicMirror controls how the guest content is laid out and rendered.
+
+Unlike an iframe, the webview runs in a separate process than MagicMirror.
+It doesn't have the same permissions and all interactions between MagicMirror
+and embedded content will be asynchronous. This keeps MagicMirror safe from the
+embedded content.
+
+Under the hood webview is implemented with Out-of-Process iframes (OOPIFs).
+The webview tag is essentially a custom element using shadow DOM to wrap an
+iframe element inside it. So the behavior of webview is very similar to a
+cross-domain iframe. As such, it can be used to safely avoid cross-domain
+policy restrictions that may prevent access to web content.
+
+### Features
+
+- Embedded YouTube Player on MagicMirror with Autoplay
+- Specify a single YouTube video ID, a list of video IDs, or a playlist ID
+- Loop after playing specified list or playlist
+- Optionally execute specified JavaScript after loading the webview 
+- Optionally specify an HTTP referrer to avoid YouTube blocking video access 
 
 ## Installation
 
