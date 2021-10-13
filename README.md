@@ -40,6 +40,8 @@ iframe element inside it. So the behavior of webview is very similar to a
 cross-domain iframe. As such, it can be used to safely avoid cross-domain
 policy restrictions that may prevent access to web content.
 
+Use of webview does not require a key and is free.
+
 ### Features
 
 - Embedded YouTube Player on MagicMirror with Autoplay
@@ -47,6 +49,7 @@ policy restrictions that may prevent access to web content.
 - Loop after playing specified list or playlist
 - Optionally execute specified JavaScript after loading the webview 
 - Optionally specify an HTTP referrer to avoid YouTube blocking video access 
+- Free, no key or subscription or fee is required. MIT licensed.
 
 ## Installation
 
