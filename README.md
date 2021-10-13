@@ -1,13 +1,24 @@
 # MMM-YouTubeWebView: A YouTube WebView module for [MagicMirror²](https://github.com/MichMich/MagicMirror)
 
 This is a module for the [MagicMirror²](https://github.com/MichMich/MagicMirror/).
-
 MMM-YouTubeWebView allows you to add a webview which can display YouTube urls.
 
-This module uses the [Electron's \<webview\> tag](https://www.electronjs.org/docs/api/webview-tag) instead of `<iframe>` to embed pages.
-It enables display of YouTube videos that cannot be displayed in an `<iframe>`.
+This module uses the [Electron's \<webview\> tag](https://www.electronjs.org/docs/api/webview-tag) instead of `<iframe>` to embed pages. It enables display of YouTube videos that cannot be displayed in an `<iframe>`.
 
 v1.0.0
+
+## Table of contents
+
+1. [Installation](#installation)
+1. [Using this module](#using-this-module)
+1. [Configuration](#configuration)
+    1. [Optional configuration](#optional-configuration)
+1. [Update](#update)
+1. [Limitations](#limitations)
+1. [Motivation](#motivation)
+1. [Screenshots](#screenshots)
+1. [Support](#support)
+1. [License](#license)
 
 ## Installation
 
@@ -73,27 +84,27 @@ The following properties are required for configuration:
 | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `video_id` | YouTube video id to display. You can get it from youtube url <br> **Example:** `https://www.youtube.com/watch?v=w3jLJU7DT5E` <br>**video_id:** w3jLJU7DT5E |
 
-## Optional configuration
+### Optional configuration
 
 The following properties can be configured:
 
-| Option           | Description                                                                                                                                                                                    | Default Value | Type Data |
+| Option           | Description     | Default Value | Type Data |
 | ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | --------- |
-| `autoplay`       | Autoplay video when it loaded                                                                                                                                                                  | `false`       | Boolean   |
+| `autoplay`       | Autoplay video when it loaded  | `false`       | Boolean   |
 | `color`          | Player's video progress bar to highlight the amount of the video that the viewer has already seen but color can be only `red` or `white`                                                       | `"red"`       | String    |
-| `controls`       | Show youtube video controls bar                                                                                                                                                                | `true`        | Boolean   |
-| `disablekb`      | Disable keyboard control                                                                                                                                                                       | `false`       | Boolean   |
-| `fs`             | Displaying fullscreen button in player                                                                                                                                                         | `true`        | Boolean   |
+| `controls`       | Show youtube video controls bar   | `true`        | Boolean   |
+| `disablekb`      | Disable keyboard control  | `false`       | Boolean   |
+| `fs`             | Displaying fullscreen button in player  | `true`        | Boolean   |
 | `loadedJS` | the JavaScript code string to be executed after page load | `undefined` | String |
-| `loop`           | Auto-play video again                                                                                                                                                                          | `false`       | Boolean   |
+| `loop`           | Auto-play video again   | `false`       | Boolean   |
 | `modestbranding` | Prevent the YouTube logo displaying in the controlbar. But YouTube text label still display in the upper-right cornner of a paused video when the user's mouse pointer hovers over the player. | `false`       | Boolean   |
 | `referrer`            | HTTP Referrer, used to avoid YouTube policy that sometimes disables display of video to unknown or local referrer.  | ""       | String   |
-| `rel`            | Show related video at the end of video                                                                                                                                                         | `false`       | Boolean   |
-| `showinfo`       | Show video title and uploader                                                                                                                                                                  | `false`       | Boolean   |
+| `rel`            | Show related video at the end of video | `false`       | Boolean   |
+| `showinfo`       | Show video title and uploader | `false`       | Boolean   |
 | `video_list`     | Play video from list by video id. YouTube will play `video_id` first then play video from `video_list`. See [Example in Wiki](https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Custom-Playlist) | []            | Array     |
 | `playlist`       | Play video from playlist by playlist id. **Note** It will neither play video from `video_id` nor `video_list`. See [Example in Wiki](https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Asian-Pop)  | ""            | String    |
-| `width`          | Video width                                                                                                                                                                                    | "560px"         | String   |
-| `height`         | Video height                                                                                                                                                                                   | "315px"         | String   |
+| `width`          | Video width  | "560px"         | String   |
+| `height`         | Video height | "315px"         | String   |
 
 ## Update
 
@@ -105,6 +116,14 @@ git pull
 npm install
 ```
 
+## Limitations
+
+Electron's webview tag is based on Chromium's webview, which is undergoing
+architectural changes. This impacts the stability of webviews, including
+rendering, navigation, and event routing.
+
+You can not add keyboard, mouse, and scroll event listeners to webview.
+
 ## Motivation
 
 When embedding YouTube videos in MagicMirror, some videos cannot be embedded using an iframe. There are several reasons, one of these is the HTTP response header `X-Frame-Options: DENY` by the website disables iframe. This is needed for security.
@@ -112,6 +131,10 @@ When embedding YouTube videos in MagicMirror, some videos cannot be embedded usi
 For MagicMirror usage, using WebView instead of iframe may resolve the problem.
 
 Further, The excellent MMM-WebView module by Shunta Iketaki only handles a single URL. I wanted my MagicMirror to cycle through multiple YouTube videos and/or a playlist. I combined some of the features from the MMM-EmbedYoutube module by Nitipoom Unrrom with the functionality of MMM-WebView, adding some additional features.
+
+## Screenshots
+
+TODO
 
 ## Support
 
