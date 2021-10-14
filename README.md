@@ -1,9 +1,10 @@
-# MMM-YouTubeWebView: A YouTube WebView module for [MagicMirror²](https://github.com/MichMich/MagicMirror)
+# MMM-YouTubeWebView: [MagicMirror²](https://github.com/MichMich/MagicMirror) YouTube WebView module
 
 This is a module for the [MagicMirror²](https://github.com/MichMich/MagicMirror/).
+
 MMM-YouTubeWebView allows you to add a webview which can display YouTube urls.
 
-This module uses the [Electron's \<webview\> tag](https://www.electronjs.org/docs/api/webview-tag) instead of `<iframe>` to embed pages. It enables display of YouTube videos that cannot be displayed in an `<iframe>`.
+This module uses [Electron's \<webview\> tag](https://www.electronjs.org/docs/api/webview-tag) instead of `<iframe>` to embed pages. It enables display of YouTube videos that cannot be displayed in an `<iframe>`.
 
 ## Table of contents
 
@@ -170,6 +171,10 @@ architectural changes. This impacts the stability of webviews, including
 rendering, navigation, and event routing.
 
 You can not add keyboard, mouse, and scroll event listeners to webview.
+
+Currently MMM-YouTubeWebView is limited to YouTube content with a URL of the form
+<nowiki>https://www.youtube.com/embed/...</nowiki>. A future release should support
+generalized web video content.
 
 ## Motivation
 
