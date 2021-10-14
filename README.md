@@ -173,8 +173,8 @@ rendering, navigation, and event routing.
 You can not add keyboard, mouse, and scroll event listeners to webview.
 
 Currently MMM-YouTubeWebView is limited to YouTube content with a URL of the form
-<nowiki>https://www.youtube.com/embed/...</nowiki>. A future release should support
-generalized web video content.
+`https://www.youtube.com/embed/...`. A future release should support generalized
+web video content.
 
 ## Motivation
 
