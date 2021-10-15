@@ -135,8 +135,8 @@ The following properties can be configured:
 | `referrer`            | HTTP Referrer, used to avoid YouTube policy that sometimes disables display of video to unknown or local referrer.  | ""       | String   |
 | `rel`            | Show related video at the end of video | `false`       | Boolean   |
 | `showinfo`       | Show video title and uploader | `false`       | Boolean   |
-| `video_list`     | Play video from list by video id. YouTube will play `video_id` first then play video from `video_list`. See [Example in Wiki](https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Custom-Playlist) | []            | Array     |
-| `playlist`       | Play video from playlist by playlist id. **Note** It will neither play video from `video_id` nor `video_list`. See [Example in Wiki](https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Korean-Pop)  | ""            | String    |
+| `video_list`     | Play video from list by video id. YouTube will play `video_id` first then play video from `video_list`. See [Example in Wiki](https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Example-Configs/Custom-Playlist) | []            | Array     |
+| `playlist`       | Play video from playlist by playlist id. **Note** It will neither play video from `video_id` nor `video_list`. See [Example in Wiki](https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Example-Configs/Korean-Pop)  | ""            | String    |
 | `width`          | Video width  | "560px"         | String   |
 | `height`         | Video height | "315px"         | String   |
 
@@ -155,19 +155,19 @@ Several example configurations utilizing the MMM-YouTubeWebView module are avail
     <td>
       <ul>
         <li>
-          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/David-Bowie">
+          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Example-Configs/David-Bowie">
           David Bowie</a>
         </li>
         <li>
-          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Deep-Purple">
+          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Example-Configs/Deep-Purple">
           Deep Purple</a>
         </li>
         <li>
-          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Rufus-Wainwright">
+          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Example-Configs/Rufus-Wainwright">
           Rufus Wainwright</a>
         </li>
         <li>
-          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Queens-of-the-Stone-Age">
+          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Example-Configs/Queens-of-the-Stone-Age">
           Queens of the Stone Age</a>
         </li>
       </ul>
@@ -175,19 +175,19 @@ Several example configurations utilizing the MMM-YouTubeWebView module are avail
     <td>
       <ul>
         <li>
-          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Babymetal">
+          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Example-Configs/Babymetal">
           Babymetal</a>
         </li>
         <li>
-          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Dua-Lipa">
+          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Example-Configs/Dua-Lipa">
           Dua Lipa</a>
         </li>
         <li>
-          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Korean-Pop">
+          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Example-Configs/Korean-Pop">
           Korean Pop</a>
         </li>
         <li>
-          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/ZHU">
+          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Example-Configs/ZHU">
           ZHU</a>
         </li>
       </ul>
@@ -195,19 +195,19 @@ Several example configurations utilizing the MMM-YouTubeWebView module are avail
     <td>
       <ul>
         <li>
-          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Fractal-Playlist">
+          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Example-Configs/Fractal-Playlist">
           Fractals</a>
         </li>
         <li>
-          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Pipe-Organ">
+          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Example-Configs/Pipe-Organ">
           Pipe Organ</a>
         </li>
         <li>
-          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/TV-Themes">
+          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Example-Configs/TV-Themes">
           TV Themes</a>
         </li>
         <li>
-          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Veritasium">
+          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Example-Configs/Veritasium">
           Veritasium</a>
         </li>
       </ul>
@@ -215,19 +215,19 @@ Several example configurations utilizing the MMM-YouTubeWebView module are avail
     <td>
       <ul>
         <li>
-          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Harry-Nilsson/Harry-Nilsson">
+          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Example-Configs/Harry-Nilsson/Harry-Nilsson">
           Harry Nilsson</a>
         </li>
         <li>
-          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Harry-Nilsson/Lost-Weekend">
+          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Example-Configs/Harry-Nilsson/Lost-Weekend">
           Lost Weekend</a>
         </li>
         <li>
-          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Harry-Nilsson/Son-of-Dracula">
+          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Example-Configs/Harry-Nilsson/Son-of-Dracula">
           Son of Dracula</a>
         </li>
         <li>
-          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Harry-Nilsson/Son-of-Schmilsson">
+          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Example-Configs/Harry-Nilsson/Son-of-Schmilsson">
           Son of Schmilsson</a>
         </li>
       </ul>
