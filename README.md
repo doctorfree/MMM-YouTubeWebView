@@ -146,12 +146,14 @@ Several example configurations utilizing the MMM-YouTubeWebView module are avail
 
 <table border="0">
   <tr>
+    <th>Far Out</th>
+    <th>Really Cool</th>
+    <th>Interesting</th>
+    <th>Harry Nilsson</th>
+  </tr>
+  <tr>
     <td>
       <ul>
-        <li>
-          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Babymetal">
-          Babymetal</a>
-        </li>
         <li>
           <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/David-Bowie">
           David Bowie</a>
@@ -161,8 +163,32 @@ Several example configurations utilizing the MMM-YouTubeWebView module are avail
           Deep Purple</a>
         </li>
         <li>
+          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Rufus-Wainwright">
+          Rufus Wainwright</a>
+        </li>
+        <li>
+          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Queens-of-the-Stone-Age">
+          Queens of the Stone Age</a>
+        </li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>
+          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Babymetal">
+          Babymetal</a>
+        </li>
+        <li>
           <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Dua-Lipa">
           Dua Lipa</a>
+        </li>
+        <li>
+          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Korean-Pop">
+          Korean Pop</a>
+        </li>
+        <li>
+          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/ZHU">
+          ZHU</a>
         </li>
       </ul>
     </td>
@@ -173,32 +199,36 @@ Several example configurations utilizing the MMM-YouTubeWebView module are avail
           Fractals</a>
         </li>
         <li>
-          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Korean-Pop">
-          Korean Pop</a>
-        </li>
-        <li>
           <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Pipe-Organ">
           Pipe Organ</a>
-        </li>
-        <li>
-          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Rufus-Wainwright">
-          Rufus Wainwright</a>
-        </li>
-      </ul>
-    </td>
-    <td>
-      <ul>
-        <li>
-          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Queens-of-the-Stone-Age">
-          Queens of the Stone Age</a>
         </li>
         <li>
           <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/TV-Themes">
           TV Themes</a>
         </li>
         <li>
-          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/ZHU">
-          ZHU</a>
+          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Veritasium">
+          Veritasium</a>
+        </li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>
+          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Harry-Nilsson/Harry-Nilsson">
+          Harry Nilsson</a>
+        </li>
+        <li>
+          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Harry-Nilsson/Lost-Weekend">
+          Lost Weekend</a>
+        </li>
+        <li>
+          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Harry-Nilsson/Son-of-Dracula">
+          Son of Dracula</a>
+        </li>
+        <li>
+          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Harry-Nilsson/Son-of-Schmilsson">
+          Son of Schmilsson</a>
         </li>
       </ul>
     </td>
