@@ -186,22 +186,24 @@ Several example configurations utilizing the MMM-YouTubeWebView module are avail
         </li>
       </ul>
     </td>
+    <td>
+      <ul>
+        <li>
+          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Queens-of-the-Stone-Age">
+          Queens of the Stone Age</a>
+        </li>
+        <li>
+          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/TV-Themes">
+          TV Themes</a>
+        </li>
+        <li>
+          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/ZHU">
+          ZHU</a>
+        </li>
+      </ul>
+    </td>
   </tr>
 </table>
-
-{::comment}
-- [Babymetal](https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Babymetal)
-- [David Bowie](https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/David-Bowie)
-- [Deep Purple](https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Deep-Purple)
-- [Dua Lipa](https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Dua-Lipa)
-- [Fractals](https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Fractal-Playlist)
-- [Korean Pop](https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Korean-Pop)
-- [Pipe Organ](https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Pipe-Organ)
-- [Rufus Wainwright](https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Rufus-Wainwright)
-- [Queens of the Stone Age](https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Queens-of-the-Stone-Age)
-- [TV Themes](https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/TV-Themes)
-- [ZHU](https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/ZHU)
-{:/comment}
 
 In addition to these MMM-YouTubeWebView example configs, an extensive library of
 MagicMirror configuration files is maintained in the
