@@ -144,6 +144,52 @@ The following properties can be configured:
 
 Several example configurations utilizing the MMM-YouTubeWebView module are available.
 
+<table border="0">
+  <tr>
+    <td>
+      <ul>
+        <li>
+          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Babymetal">
+          Babymetal</a>
+        </li>
+        <li>
+          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/David-Bowie">
+          David Bowie</a>
+        </li>
+        <li>
+          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Deep-Purple">
+          Deep Purple</a>
+        </li>
+        <li>
+          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Dua-Lipa">
+          Dua Lipa</a>
+        </li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>
+          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Fractal-Playlist">
+          Fractals</a>
+        </li>
+        <li>
+          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Korean-Pop">
+          Korean Pop</a>
+        </li>
+        <li>
+          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Pipe-Organ">
+          Pipe Organ</a>
+        </li>
+        <li>
+          <a href="https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Rufus-Wainwright">
+          Rufus Wainwright</a>
+        </li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+{::comment}
 - [Babymetal](https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Babymetal)
 - [David Bowie](https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/David-Bowie)
 - [Deep Purple](https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Deep-Purple)
@@ -155,6 +201,7 @@ Several example configurations utilizing the MMM-YouTubeWebView module are avail
 - [Queens of the Stone Age](https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/Queens-of-the-Stone-Age)
 - [TV Themes](https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/TV-Themes)
 - [ZHU](https://gitlab.com/doctorfree/MMM-YouTubeWebView/-/wikis/ZHU)
+{:/comment}
 
 In addition to these MMM-YouTubeWebView example configs, an extensive library of
 MagicMirror configuration files is maintained in the
