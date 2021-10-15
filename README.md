@@ -146,10 +146,10 @@ Several example configurations utilizing the MMM-YouTubeWebView module are avail
 
 <table border="0">
   <tr>
-    <th>Far Out</th>
-    <th>Really Cool</th>
-    <th>Interesting</th>
-    <th>Harry Nilsson</th>
+    <th style="text-align: center">Far Out</th>
+    <th style="text-align: center">Really Cool</th>
+    <th style="text-align: center">Interesting</th>
+    <th style="text-align: center">Harry Nilsson</th>
   </tr>
   <tr>
     <td>
