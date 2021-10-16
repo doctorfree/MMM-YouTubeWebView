@@ -58,7 +58,7 @@ collaborate on an issue with this project.
 
 Clone this repository in your `modules` folder:
 
-```bash
+```console
 cd ~/MagicMirror/modules
 git clone https://gitlab.com/doctorfree/MMM-YouTubeWebView.git
 cd MMM-YouTubeWebView
@@ -243,7 +243,7 @@ MagicMirror configuration files is maintained in the
 
 Get the latest version using the command `git pull`:
 
-```bash
+```console
 cd ~/MagicMirror/modules/MMM-YouTubeWebView
 git pull
 npm install
